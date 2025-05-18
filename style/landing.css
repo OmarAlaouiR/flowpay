@@ -1,8 +1,15 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     margin: 0;
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #fff;
     color: #000;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 header {
