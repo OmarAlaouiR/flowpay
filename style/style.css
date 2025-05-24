@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -9,15 +8,3 @@ body {
   overflow: hidden;
 }
 
-=======
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #000; 
-  color: #fff;            
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  overflow: hidden;
-}
-
->>>>>>> 2edfa43 (intial commit)
