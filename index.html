@@ -1,53 +1,93 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <title>FlowPay</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/landing.css">
-    <link rel="icon" type="image/png" href="images/logo3.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlowPay-Waitlist</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="images/flowpay-high-resolution-logo-grayscale-transparent (1).png"/>
 </head>
-
 <body>
-    
 
- <header>
-    <nav>
-      <img src="images/logo3.png" alt="FlowPay Logo" class="logo" />
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="login/login.html">Sign In</a></li>
-      </ul>
+  <header class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-logo">
+      <img src="images/flowpay-high-resolution-logo-transparent.png" alt="FlowPay Logo" class="Logo-navbar"/>
+      
+    </div>
+    <nav class="navbar-links">
+      <a href="#">Early Access</a>
     </nav>
-  </header>
-  
-  <section class="hero">
-    <h1>Welcome to FlowPay</h1>
-    <p>Your all-in-one financial solution</p>
-    <a href="login/signup.html" class="btn">Get Started</a>
-  </section>
-  
-  <section id="about">
-    <h2>About FlowPay</h2>
-    <p>FlowPay helps users send and receive money globally with ease, pay bills, and stay in control of their finances.</p>
-  </section>
-  
-  <section id="features">
-    <h2>Features</h2>
-    <ul>
-      <li>✔️ Easy payments</li>
-      <li>✔️ Pay bills in seconds</li>
-      <li>✔️ Secure and fast</li>
-    </ul>
-  </section>
-  
-  <footer>
-    <p>&copy; 2024 FlowPay. All rights reserved.</p>
-  </footer>
-  
+  </div>
+</header>
 
+  <div class="container">
+    <h1>Cross-border payments for Africa & MENA, done right.</h1>
+    <p>Get paid fast, securely, and cash out locally — no hidden fees, no headaches. Built specifically for freelancers, students, and businesses in regions others ignore.</p>
+    <button id="joinWaitlistBtn">Join The Waitlist</button>
+  </div>
+
+  <section class="features">
+    <div class="feature">
+      <div class="icon">
+        <!-- Lightning icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap">
+          <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+        </svg>
+      </div>
+      <h3>Lightning Fast</h3>
+      <p>Receive payments in minutes, not days</p>
+    </div>
+
+    <div class="feature">
+      <div class="icon">
+        <!-- Globe icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+          <path d="M2 12h20"/>
+        </svg>
+      </div>
+      <h3>Region-First</h3>
+      <p>Built for Africa & MENA markets</p>
+    </div>
+
+    <div class="feature">
+      <div class="icon">
+        <!-- Shield icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield">
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+        </svg>
+      </div>
+      <h3>Human Support</h3>
+      <p>Real people, 24/7 availability</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/flowpay-high-resolution-logo-transparent.png" alt="FlowPay Logo" class="Logo"/>
+        <span>© 2024 FlowPay. All rights reserved.</span>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:support@flowpay.uk" aria-label="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+            <rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect>
+            <polyline points="3 7 12 13 21 7"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-description">
+      <p>FlowPay is building the future of cross-border payments for Africa and MENA. Join our waitlist to be among the first to experience seamless international money transfers.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

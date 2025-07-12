@@ -1,0 +1,195 @@
+/* ===== Base styles ===== */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Hero container ===== */
+.container {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  color: #aaa;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+/* ===== CTA Button ===== */
+#joinWaitlistBtn {
+  background-color: #f0f0dc;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#joinWaitlistBtn:hover {
+  background-color: #ddd;
+}
+
+/* ===== Features Section ===== */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 3rem auto 4rem;
+  padding: 0 2rem;
+  max-width: 1000px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center the icon and text horizontally */
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature .icon {
+  background: #333;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;  /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  margin-bottom: 1rem;
+}
+
+.feature .icon svg {
+  width: 40%;   /* scale svg relative to the circle */
+  height: 50%;
+  color: #fff;
+}
+
+.feature h3 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.feature p {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+
+/* ===== Footer ===== */
+footer {
+  border-top: 1px solid #333;
+  padding: 20px 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Logo {
+  width: 120px;
+}
+
+.footer-brand span {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.footer-contact a svg {
+  stroke: #fff;
+  transition: stroke 0.3s;
+}
+
+.footer-contact a:hover svg {
+  stroke: #f0f0dc;
+}
+
+.footer-description {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-contact {
+    margin-top: 1rem;
+  }
+}
+
+
+
+/* Navbar styles */
+.navbar {
+  background: #000; /* black background */
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  width: 200px; /* adjust size as needed */
+}
+
+.navbar-logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-links a:hover {
+  opacity: 0.7;
+}
